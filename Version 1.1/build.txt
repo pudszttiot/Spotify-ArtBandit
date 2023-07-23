@@ -1,0 +1,1057 @@
+6017 INFO: PyInstaller: 5.13.0
+6017 INFO: Python: 3.11.1
+6032 INFO: Platform: Windows-10-10.0.18363-SP0
+6766 INFO: wrote G:\Software\py\Python Creations\Completed\Projects\SpotifyArtBandit\Version 1.1\SpotifyArtBanditv1dot1.spec
+6766 DEBUG: Testing UPX availability ...
+6766 DEBUG: UPX is not available.
+6781 DEBUG: script: G:\Software\py\Python Creations\Completed\Projects\SpotifyArtBandit\Version 1.1\SpotifyArtBanditv1dot1.py
+6781 INFO: Extending PYTHONPATH with paths
+['G:\\Software\\py\\Python '
+ 'Creations\\Completed\\Projects\\SpotifyArtBandit\\Version 1.1']
+4017 DEBUG: discover_hook_directories: Hook directories: ['C:\\Users\\PUDDD\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\_pyinstaller', 'C:\\Users\\PUDDD\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pygame\\__pyinstaller', 'C:\\Users\\PUDDD\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\stdhooks', 'C:\\Users\\PUDDD\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\stdhooks\\__pycache__', 'C:\\Users\\PUDDD\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\rthooks', 'C:\\Users\\PUDDD\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\rthooks\\__pycache__', 'C:\\Users\\PUDDD\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks']
+13899 INFO: checking Analysis
+13899 INFO: Building Analysis because Analysis-00.toc is non existent
+13899 INFO: Initializing module dependency graph...
+13930 INFO: Caching module graph hooks...
+14015 INFO: Analyzing base_library.zip ...
+14015 DEBUG: Collecting submodules for urllib
+2398 DEBUG: collect_submodules - scanning (sub)package urllib
+2398 DEBUG: collect_submodules - scanning (sub)package urllib in location(s): ['C:\\Users\\PUDDD\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\urllib']
+16892 DEBUG: collect_submodules - found submodules: ['urllib', 'urllib.error', 'urllib.parse', 'urllib.request', 'urllib.response', 'urllib.robotparser']
+16894 DEBUG: Collecting submodules for collections
+2388 DEBUG: collect_submodules - scanning (sub)package collections
+2388 DEBUG: collect_submodules - scanning (sub)package collections in location(s): ['C:\\Users\\PUDDD\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\collections']
+19780 DEBUG: collect_submodules - found submodules: ['collections', 'collections.abc']
+19788 DEBUG: Collecting submodules for re
+2363 DEBUG: collect_submodules - scanning (sub)package re
+2363 DEBUG: collect_submodules - scanning (sub)package re in location(s): ['C:\\Users\\PUDDD\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\re']
+22659 DEBUG: collect_submodules - found submodules: ['re', 're._casefix', 're._compiler', 're._constants', 're._parser']
+22659 DEBUG: Collecting submodules for encodings
+2459 DEBUG: collect_submodules - scanning (sub)package encodings
+2459 DEBUG: collect_submodules - scanning (sub)package encodings in location(s): ['C:\\Users\\PUDDD\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\encodings']
+25609 DEBUG: collect_submodules - found submodules: ['encodings', 'encodings.aliases', 'encodings.ascii', 'encodings.base64_codec', 'encodings.big5', 'encodings.big5hkscs', 'encodings.bz2_codec', 'encodings.charmap', 'encodings.cp037', 'encodings.cp1006', 'encodings.cp1026', 'encodings.cp1125', 'encodings.cp1140', 'encodings.cp1250', 'encodings.cp1251', 'encodings.cp1252', 'encodings.cp1253', 'encodings.cp1254', 'encodings.cp1255', 'encodings.cp1256', 'encodings.cp1257', 'encodings.cp1258', 'encodings.cp273', 'encodings.cp424', 'encodings.cp437', 'encodings.cp500', 'encodings.cp720', 'encodings.cp737', 'encodings.cp775', 'encodings.cp850', 'encodings.cp852', 'encodings.cp855', 'encodings.cp856', 'encodings.cp857', 'encodings.cp858', 'encodings.cp860', 'encodings.cp861', 'encodings.cp862', 'encodings.cp863', 'encodings.cp864', 'encodings.cp865', 'encodings.cp866', 'encodings.cp869', 'encodings.cp874', 'encodings.cp875', 'encodings.cp932', 'encodings.cp949', 'encodings.cp950', 'encodings.euc_jis_2004', 'encodings.euc_jisx0213', 'encodings.euc_jp', 'encodings.euc_kr', 'encodings.gb18030', 'encodings.gb2312', 'encodings.gbk', 'encodings.hex_codec', 'encodings.hp_roman8', 'encodings.hz', 'encodings.idna', 'encodings.iso2022_jp', 'encodings.iso2022_jp_1', 'encodings.iso2022_jp_2', 'encodings.iso2022_jp_2004', 'encodings.iso2022_jp_3', 'encodings.iso2022_jp_ext', 'encodings.iso2022_kr', 'encodings.iso8859_1', 'encodings.iso8859_10', 'encodings.iso8859_11', 'encodings.iso8859_13', 'encodings.iso8859_14', 'encodings.iso8859_15', 'encodings.iso8859_16', 'encodings.iso8859_2', 'encodings.iso8859_3', 'encodings.iso8859_4', 'encodings.iso8859_5', 'encodings.iso8859_6', 'encodings.iso8859_7', 'encodings.iso8859_8', 'encodings.iso8859_9', 'encodings.johab', 'encodings.koi8_r', 'encodings.koi8_t', 'encodings.koi8_u', 'encodings.kz1048', 'encodings.latin_1', 'encodings.mac_arabic', 'encodings.mac_croatian', 'encodings.mac_cyrillic', 'encodings.mac_farsi', 'encodings.mac_greek', 'encodings.mac_iceland', 'encodings.mac_latin2', 'encodings.mac_roman', 'encodings.mac_romanian', 'encodings.mac_turkish', 'encodings.mbcs', 'encodings.oem', 'encodings.palmos', 'encodings.ptcp154', 'encodings.punycode', 'encodings.quopri_codec', 'encodings.raw_unicode_escape', 'encodings.rot_13', 'encodings.shift_jis', 'encodings.shift_jis_2004', 'encodings.shift_jisx0213', 'encodings.tis_620', 'encodings.undefined', 'encodings.unicode_escape', 'encodings.utf_16', 'encodings.utf_16_be', 'encodings.utf_16_le', 'encodings.utf_32', 'encodings.utf_32_be', 'encodings.utf_32_le', 'encodings.utf_7', 'encodings.utf_8', 'encodings.utf_8_sig', 'encodings.uu_codec', 'encodings.zlib_codec']
+27379 INFO: Loading module hook 'hook-heapq.py' from 'C:\\Users\\PUDDD\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'...
+27387 DEBUG: Suppressing import of 'doctest' from module 'heapq' due to excluded import 'doctest' specified in a hook for 'heapq' (or its parent package(s)).
+28244 INFO: Loading module hook 'hook-encodings.py' from 'C:\\Users\\PUDDD\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'...
+28244 DEBUG: Collecting submodules for encodings
+2381 DEBUG: collect_submodules - scanning (sub)package encodings
+2381 DEBUG: collect_submodules - scanning (sub)package encodings in location(s): ['C:\\Users\\PUDDD\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\encodings']
+31143 DEBUG: collect_submodules - found submodules: ['encodings', 'encodings.aliases', 'encodings.ascii', 'encodings.base64_codec', 'encodings.big5', 'encodings.big5hkscs', 'encodings.bz2_codec', 'encodings.charmap', 'encodings.cp037', 'encodings.cp1006', 'encodings.cp1026', 'encodings.cp1125', 'encodings.cp1140', 'encodings.cp1250', 'encodings.cp1251', 'encodings.cp1252', 'encodings.cp1253', 'encodings.cp1254', 'encodings.cp1255', 'encodings.cp1256', 'encodings.cp1257', 'encodings.cp1258', 'encodings.cp273', 'encodings.cp424', 'encodings.cp437', 'encodings.cp500', 'encodings.cp720', 'encodings.cp737', 'encodings.cp775', 'encodings.cp850', 'encodings.cp852', 'encodings.cp855', 'encodings.cp856', 'encodings.cp857', 'encodings.cp858', 'encodings.cp860', 'encodings.cp861', 'encodings.cp862', 'encodings.cp863', 'encodings.cp864', 'encodings.cp865', 'encodings.cp866', 'encodings.cp869', 'encodings.cp874', 'encodings.cp875', 'encodings.cp932', 'encodings.cp949', 'encodings.cp950', 'encodings.euc_jis_2004', 'encodings.euc_jisx0213', 'encodings.euc_jp', 'encodings.euc_kr', 'encodings.gb18030', 'encodings.gb2312', 'encodings.gbk', 'encodings.hex_codec', 'encodings.hp_roman8', 'encodings.hz', 'encodings.idna', 'encodings.iso2022_jp', 'encodings.iso2022_jp_1', 'encodings.iso2022_jp_2', 'encodings.iso2022_jp_2004', 'encodings.iso2022_jp_3', 'encodings.iso2022_jp_ext', 'encodings.iso2022_kr', 'encodings.iso8859_1', 'encodings.iso8859_10', 'encodings.iso8859_11', 'encodings.iso8859_13', 'encodings.iso8859_14', 'encodings.iso8859_15', 'encodings.iso8859_16', 'encodings.iso8859_2', 'encodings.iso8859_3', 'encodings.iso8859_4', 'encodings.iso8859_5', 'encodings.iso8859_6', 'encodings.iso8859_7', 'encodings.iso8859_8', 'encodings.iso8859_9', 'encodings.johab', 'encodings.koi8_r', 'encodings.koi8_t', 'encodings.koi8_u', 'encodings.kz1048', 'encodings.latin_1', 'encodings.mac_arabic', 'encodings.mac_croatian', 'encodings.mac_cyrillic', 'encodings.mac_farsi', 'encodings.mac_greek', 'encodings.mac_iceland', 'encodings.mac_latin2', 'encodings.mac_roman', 'encodings.mac_romanian', 'encodings.mac_turkish', 'encodings.mbcs', 'encodings.oem', 'encodings.palmos', 'encodings.ptcp154', 'encodings.punycode', 'encodings.quopri_codec', 'encodings.raw_unicode_escape', 'encodings.rot_13', 'encodings.shift_jis', 'encodings.shift_jis_2004', 'encodings.shift_jisx0213', 'encodings.tis_620', 'encodings.undefined', 'encodings.unicode_escape', 'encodings.utf_16', 'encodings.utf_16_be', 'encodings.utf_16_le', 'encodings.utf_32', 'encodings.utf_32_be', 'encodings.utf_32_le', 'encodings.utf_7', 'encodings.utf_8', 'encodings.utf_8_sig', 'encodings.uu_codec', 'encodings.zlib_codec']
+42605 INFO: Loading module hook 'hook-pickle.py' from 'C:\\Users\\PUDDD\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'...
+42651 DEBUG: Suppressing import of 'doctest' from module 'pickle' due to excluded import 'doctest' specified in a hook for 'pickle' (or its parent package(s)).
+42651 DEBUG: Suppressing import of 'argparse' from module 'pickle' due to excluded import 'argparse' specified in a hook for 'pickle' (or its parent package(s)).
+51953 INFO: Caching module dependency graph...
+52329 DEBUG: Adding python files to base_library.zip
+53715 INFO: running Analysis Analysis-00.toc
+53715 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\python.exe
+53784 DEBUG: Dependent assemblies of C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\python.exe:
+53784 DEBUG: *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+53784 INFO: Adding Microsoft.Windows.Common-Controls to dependent assemblies of final executable
+  required by C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\python.exe
+53784 DEBUG: Skipping assembly *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+53799 DEBUG: Adding python311.dll dependency of python.exe from C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\python311.dll
+53831 DEBUG: Adding VCRUNTIME140.dll dependency of python.exe from C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\VCRUNTIME140.dll
+53846 DEBUG: Skipping KERNEL32.dll dependency of python.exe
+53846 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\python311.dll
+53846 DEBUG: Dependent assemblies of C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\python311.dll:
+53846 DEBUG: *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+53846 DEBUG: Skipping assembly *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+53931 DEBUG: Skipping KERNEL32.dll dependency of python311.dll
+53947 DEBUG: Skipping WS2_32.dll dependency of python311.dll
+53978 DEBUG: Skipping bcrypt.dll dependency of python311.dll
+54000 DEBUG: Skipping VERSION.dll dependency of python311.dll
+54000 DEBUG: Skipping ADVAPI32.dll dependency of python311.dll
+54000 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\VCRUNTIME140.dll
+54047 DEBUG: Skipping KERNEL32.dll dependency of VCRUNTIME140.dll
+54764 INFO: Analyzing G:\Software\py\Python Creations\Completed\Projects\SpotifyArtBandit\Version 1.1\SpotifyArtBanditv1dot1.py
+55250 INFO: Loading module hook 'hook-PyQt5.py' from 'C:\\Users\\PUDDD\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'...
+55635 DEBUG: Hidden import 'codecs' already found
+55635 INFO: Processing module hooks...
+55666 WARNING: Hidden import "sip" not found!
+55835 INFO: Loading module hook 'hook-PyQt5.QtCore.py' from 'C:\\Users\\PUDDD\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'...
+55835 DEBUG: QtLibraryInfo(PyQt5): processing module PyQt5.QtCore...
+56110 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+56110 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+56110 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\VCRUNTIME140.dll -> parsed name vcruntime140.
+56126 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+56126 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+56126 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\python3.dll -> parsed name python3.
+56142 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Core.dll -> parsed name qt5core.
+56142 DEBUG: QtLibraryInfo(PyQt5): collecting Qt module associated with imported shared library C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Core.dll (qt5core).
+56289 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\KERNEL32.dll -> parsed name kernel32.
+56289 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\WINMM.dll -> parsed name winmm.
+56289 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+56304 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+56311 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\NETAPI32.dll -> parsed name netapi32.
+56311 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\ole32.dll -> parsed name ole32.
+56311 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\WS2_32.dll -> parsed name ws2_32.
+56327 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\VERSION.dll -> parsed name version.
+56327 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\ADVAPI32.dll -> parsed name advapi32.
+56327 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\VCRUNTIME140_1.dll -> parsed name vcruntime140_1.
+56342 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+56342 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+56342 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\USER32.dll -> parsed name user32.
+56358 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+56358 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+56358 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\VCRUNTIME140.dll -> parsed name vcruntime140.
+56358 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+56374 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+56374 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\SHELL32.dll -> parsed name shell32.
+56389 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\USERENV.dll -> parsed name userenv.
+56389 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\MPR.dll -> parsed name mpr.
+56389 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\MSVCP140.dll -> parsed name msvcp140.
+56389 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+56405 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+56411 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\MSVCP140_1.dll -> parsed name msvcp140_1.
+56411 DEBUG: QtLibraryInfo(PyQt5): dependencies for PyQt5.QtCore:
+  hiddenimports = []
+  binaries = []
+  datas = [('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qt_ar.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qt_bg.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qt_ca.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qt_cs.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qt_da.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qt_de.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qt_en.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qt_es.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qt_fa.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qt_fi.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qt_fr.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qt_gd.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qt_gl.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qt_he.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qt_help_ar.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qt_help_bg.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qt_help_ca.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qt_help_cs.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qt_help_da.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qt_help_de.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qt_help_en.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qt_help_es.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qt_help_fr.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qt_help_gl.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qt_help_hu.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qt_help_it.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qt_help_ja.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qt_help_ko.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qt_help_pl.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qt_help_ru.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qt_help_sk.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qt_help_sl.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qt_help_tr.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qt_help_uk.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qt_help_zh_CN.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qt_help_zh_TW.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qt_hu.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qt_it.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qt_ja.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qt_ko.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qt_lt.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qt_lv.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qt_pl.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qt_pt.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qt_ru.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qt_sk.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qt_sl.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qt_sv.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qt_tr.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qt_uk.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qt_zh_CN.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qt_zh_TW.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtbase_ar.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtbase_bg.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtbase_ca.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtbase_cs.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtbase_da.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtbase_de.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtbase_en.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtbase_es.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtbase_fi.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtbase_fr.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtbase_gd.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtbase_he.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtbase_hu.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtbase_it.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtbase_ja.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtbase_ko.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtbase_lv.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtbase_pl.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtbase_ru.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtbase_sk.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtbase_tr.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtbase_uk.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtbase_zh_TW.qm', 'PyQt5\\Qt5\\translations')]
+56458 INFO: Loading module hook 'hook-PyQt5.QtGui.py' from 'C:\\Users\\PUDDD\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'...
+56458 DEBUG: QtLibraryInfo(PyQt5): processing module PyQt5.QtGui...
+56728 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\VCRUNTIME140.dll -> parsed name vcruntime140.
+56728 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+56728 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+56743 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Gui.dll -> parsed name qt5gui.
+56743 DEBUG: QtLibraryInfo(PyQt5): collecting Qt module associated with imported shared library C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Gui.dll (qt5gui).
+57059 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+57059 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\VCRUNTIME140.dll -> parsed name vcruntime140.
+57075 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+57075 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+57075 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+57091 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\d3d11.dll -> parsed name d3d11.
+57091 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\MSVCP140.dll -> parsed name msvcp140.
+57091 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\KERNEL32.dll -> parsed name kernel32.
+57091 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+57107 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+57107 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\ole32.dll -> parsed name ole32.
+57113 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\GDI32.dll -> parsed name gdi32.
+57113 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\dxgi.dll -> parsed name dxgi.
+57128 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\VCRUNTIME140_1.dll -> parsed name vcruntime140_1.
+57128 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\python3.dll -> parsed name python3.
+57128 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Core.dll -> parsed name qt5core.
+57128 DEBUG: QtLibraryInfo(PyQt5): collecting Qt module associated with imported shared library C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Core.dll (qt5core).
+57128 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+57128 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\USER32.dll -> parsed name user32.
+57144 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+57144 DEBUG: QtLibraryInfo(PyQt5): found plugin files for plugin type 'accessiblebridge': []
+57144 DEBUG: QtLibraryInfo(PyQt5): found plugin files for plugin type 'wayland-shell-integration': []
+57144 DEBUG: QtLibraryInfo(PyQt5): found plugin files for plugin type 'imageformats': ['C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/plugins\\imageformats\\qgif.dll', 'C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/plugins\\imageformats\\qicns.dll', 'C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/plugins\\imageformats\\qico.dll', 'C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/plugins\\imageformats\\qjpeg.dll', 'C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/plugins\\imageformats\\qsvg.dll', 'C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/plugins\\imageformats\\qtga.dll', 'C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/plugins\\imageformats\\qtiff.dll', 'C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/plugins\\imageformats\\qwbmp.dll', 'C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/plugins\\imageformats\\qwebp.dll']
+57144 DEBUG: QtLibraryInfo(PyQt5): found plugin files for plugin type 'platforminputcontexts': []
+57144 DEBUG: QtLibraryInfo(PyQt5): found plugin files for plugin type 'platformthemes': ['C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/plugins\\platformthemes\\qxdgdesktopportal.dll']
+57144 DEBUG: QtLibraryInfo(PyQt5): found plugin files for plugin type 'wayland-graphics-integration-client': []
+57144 DEBUG: QtLibraryInfo(PyQt5): found plugin files for plugin type 'platforms': ['C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/plugins\\platforms\\qminimal.dll', 'C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/plugins\\platforms\\qoffscreen.dll', 'C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/plugins\\platforms\\qwebgl.dll', 'C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/plugins\\platforms\\qwindows.dll']
+57160 DEBUG: QtLibraryInfo(PyQt5): found plugin files for plugin type 'xcbglintegrations': []
+57160 DEBUG: QtLibraryInfo(PyQt5): found plugin files for plugin type 'wayland-decoration-client': []
+57160 DEBUG: QtLibraryInfo(PyQt5): found plugin files for plugin type 'egldeviceintegrations': []
+57160 DEBUG: QtLibraryInfo(PyQt5): found plugin files for plugin type 'platforms/darwin': []
+57160 DEBUG: QtLibraryInfo(PyQt5): found plugin files for plugin type 'iconengines': ['C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/plugins\\iconengines\\qsvgicon.dll']
+57160 DEBUG: QtLibraryInfo(PyQt5): found plugin files for plugin type 'generic': ['C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/plugins\\generic\\qtuiotouchplugin.dll']
+57160 DEBUG: QtLibraryInfo(PyQt5): dependencies for PyQt5.QtGui:
+  hiddenimports = ['PyQt5.QtCore']
+  binaries = [('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/plugins\\imageformats\\qgif.dll', 'PyQt5\\Qt5\\plugins\\imageformats'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/plugins\\imageformats\\qicns.dll', 'PyQt5\\Qt5\\plugins\\imageformats'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/plugins\\imageformats\\qico.dll', 'PyQt5\\Qt5\\plugins\\imageformats'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/plugins\\imageformats\\qjpeg.dll', 'PyQt5\\Qt5\\plugins\\imageformats'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/plugins\\imageformats\\qsvg.dll', 'PyQt5\\Qt5\\plugins\\imageformats'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/plugins\\imageformats\\qtga.dll', 'PyQt5\\Qt5\\plugins\\imageformats'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/plugins\\imageformats\\qtiff.dll', 'PyQt5\\Qt5\\plugins\\imageformats'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/plugins\\imageformats\\qwbmp.dll', 'PyQt5\\Qt5\\plugins\\imageformats'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/plugins\\imageformats\\qwebp.dll', 'PyQt5\\Qt5\\plugins\\imageformats'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/plugins\\platformthemes\\qxdgdesktopportal.dll', 'PyQt5\\Qt5\\plugins\\platformthemes'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/plugins\\platforms\\qminimal.dll', 'PyQt5\\Qt5\\plugins\\platforms'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/plugins\\platforms\\qoffscreen.dll', 'PyQt5\\Qt5\\plugins\\platforms'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/plugins\\platforms\\qwebgl.dll', 'PyQt5\\Qt5\\plugins\\platforms'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/plugins\\platforms\\qwindows.dll', 'PyQt5\\Qt5\\plugins\\platforms'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/plugins\\iconengines\\qsvgicon.dll', 'PyQt5\\Qt5\\plugins\\iconengines'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/plugins\\generic\\qtuiotouchplugin.dll', 'PyQt5\\Qt5\\plugins\\generic')]
+  datas = []
+57175 INFO: Loading module hook 'hook-PyQt5.QtWebEngineWidgets.py' from 'C:\\Users\\PUDDD\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'...
+57175 DEBUG: QtLibraryInfo(PyQt5): processing module PyQt5.QtWebEngineWidgets...
+57429 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+57429 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+57429 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5WebEngineWidgets.dll -> parsed name qt5webenginewidgets.
+57429 DEBUG: QtLibraryInfo(PyQt5): collecting Qt module associated with imported shared library C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5WebEngineWidgets.dll (qt5webenginewidgets).
+57445 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\VCRUNTIME140.dll -> parsed name vcruntime140.
+57460 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+57460 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Widgets.dll -> parsed name qt5widgets.
+57460 DEBUG: QtLibraryInfo(PyQt5): collecting Qt module associated with imported shared library C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Widgets.dll (qt5widgets).
+57460 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Gui.dll -> parsed name qt5gui.
+57460 DEBUG: QtLibraryInfo(PyQt5): collecting Qt module associated with imported shared library C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Gui.dll (qt5gui).
+57460 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\MSVCP140.dll -> parsed name msvcp140.
+57476 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Quick.dll -> parsed name qt5quick.
+57476 DEBUG: QtLibraryInfo(PyQt5): collecting Qt module associated with imported shared library C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Quick.dll (qt5quick).
+57476 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\KERNEL32.dll -> parsed name kernel32.
+57476 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5WebEngineCore.dll -> parsed name qt5webenginecore.
+57476 DEBUG: QtLibraryInfo(PyQt5): collecting Qt module associated with imported shared library C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5WebEngineCore.dll (qt5webenginecore).
+57491 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+57491 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Network.dll -> parsed name qt5network.
+57491 DEBUG: QtLibraryInfo(PyQt5): collecting Qt module associated with imported shared library C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Network.dll (qt5network).
+57491 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5QuickWidgets.dll -> parsed name qt5quickwidgets.
+57491 DEBUG: QtLibraryInfo(PyQt5): collecting Qt module associated with imported shared library C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5QuickWidgets.dll (qt5quickwidgets).
+57491 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\python3.dll -> parsed name python3.
+57507 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Core.dll -> parsed name qt5core.
+57507 DEBUG: QtLibraryInfo(PyQt5): collecting Qt module associated with imported shared library C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Core.dll (qt5core).
+57514 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+57514 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5PrintSupport.dll -> parsed name qt5printsupport.
+57514 DEBUG: QtLibraryInfo(PyQt5): collecting Qt module associated with imported shared library C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5PrintSupport.dll (qt5printsupport).
+57514 DEBUG: QtLibraryInfo(PyQt5): dependencies for PyQt5.QtWebEngineWidgets:
+  hiddenimports = ['PyQt5.QtNetwork', 'PyQt5.QtQuickWidgets', 'PyQt5.QtGui', 'PyQt5.QtWidgets', 'PyQt5.QtPrintSupport', 'PyQt5.QtQuick', 'PyQt5.QtWebEngineCore', 'PyQt5.QtCore']
+  binaries = []
+  datas = []
+57514 INFO: Loading module hook 'hook-PyQt5.QtWidgets.py' from 'C:\\Users\\PUDDD\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'...
+57514 DEBUG: QtLibraryInfo(PyQt5): processing module PyQt5.QtWidgets...
+57986 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+57986 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+57986 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\VCRUNTIME140.dll -> parsed name vcruntime140.
+57998 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Widgets.dll -> parsed name qt5widgets.
+57998 DEBUG: QtLibraryInfo(PyQt5): collecting Qt module associated with imported shared library C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Widgets.dll (qt5widgets).
+58104 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Gui.dll -> parsed name qt5gui.
+58104 DEBUG: QtLibraryInfo(PyQt5): collecting Qt module associated with imported shared library C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Gui.dll (qt5gui).
+58104 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\MSVCP140.dll -> parsed name msvcp140.
+58104 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\MSVCP140_1.dll -> parsed name msvcp140_1.
+58104 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\KERNEL32.dll -> parsed name kernel32.
+58120 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+58126 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\dwmapi.dll -> parsed name dwmapi.
+58126 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+58126 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\ole32.dll -> parsed name ole32.
+58142 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\GDI32.dll -> parsed name gdi32.
+58142 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\VCRUNTIME140_1.dll -> parsed name vcruntime140_1.
+58142 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\python3.dll -> parsed name python3.
+58142 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Core.dll -> parsed name qt5core.
+58142 DEBUG: QtLibraryInfo(PyQt5): collecting Qt module associated with imported shared library C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Core.dll (qt5core).
+58142 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\USER32.dll -> parsed name user32.
+58158 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\UxTheme.dll -> parsed name uxtheme.
+58158 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+58158 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\VCRUNTIME140.dll -> parsed name vcruntime140.
+58174 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+58174 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\SHELL32.dll -> parsed name shell32.
+58174 DEBUG: QtLibraryInfo(PyQt5): found plugin files for plugin type 'styles': ['C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/plugins\\styles\\qwindowsvistastyle.dll']
+58174 DEBUG: QtLibraryInfo(PyQt5): dependencies for PyQt5.QtWidgets:
+  hiddenimports = ['PyQt5.QtGui', 'PyQt5.QtCore']
+  binaries = [('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/plugins\\styles\\qwindowsvistastyle.dll', 'PyQt5\\Qt5\\plugins\\styles')]
+  datas = []
+58174 INFO: Loading module hook 'hook-PyQt5.QtNetwork.py' from 'C:\\Users\\PUDDD\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'...
+58174 DEBUG: QtLibraryInfo(PyQt5): processing module PyQt5.QtNetwork...
+58443 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\VCRUNTIME140.dll -> parsed name vcruntime140.
+58443 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+58443 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+58443 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Network.dll -> parsed name qt5network.
+58443 DEBUG: QtLibraryInfo(PyQt5): collecting Qt module associated with imported shared library C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Network.dll (qt5network).
+58489 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\IPHLPAPI.DLL -> parsed name iphlpapi.
+58505 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+58505 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\VCRUNTIME140.dll -> parsed name vcruntime140.
+58505 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+58505 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+58521 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\MSVCP140.dll -> parsed name msvcp140.
+58527 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\KERNEL32.dll -> parsed name kernel32.
+58527 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+58527 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+58527 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\ole32.dll -> parsed name ole32.
+58543 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\WS2_32.dll -> parsed name ws2_32.
+58543 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\ADVAPI32.dll -> parsed name advapi32.
+58543 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\CRYPT32.dll -> parsed name crypt32.
+58558 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\VCRUNTIME140_1.dll -> parsed name vcruntime140_1.
+58558 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\python3.dll -> parsed name python3.
+58558 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Core.dll -> parsed name qt5core.
+58558 DEBUG: QtLibraryInfo(PyQt5): collecting Qt module associated with imported shared library C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Core.dll (qt5core).
+58574 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\DNSAPI.dll -> parsed name dnsapi.
+58574 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+58574 DEBUG: QtLibraryInfo(PyQt5): found plugin files for plugin type 'bearer': ['C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/plugins\\bearer\\qgenericbearer.dll']
+58574 DEBUG: QtLibraryInfo(PyQt5): dependencies for PyQt5.QtNetwork:
+  hiddenimports = ['PyQt5.QtCore']
+  binaries = [('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/plugins\\bearer\\qgenericbearer.dll', 'PyQt5\\Qt5\\plugins\\bearer')]
+  datas = []
+59006 INFO: Loading module hook 'hook-PyQt5.QtPrintSupport.py' from 'C:\\Users\\PUDDD\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'...
+59006 DEBUG: QtLibraryInfo(PyQt5): processing module PyQt5.QtPrintSupport...
+59260 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+59260 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+59260 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5PrintSupport.dll -> parsed name qt5printsupport.
+59260 DEBUG: QtLibraryInfo(PyQt5): collecting Qt module associated with imported shared library C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5PrintSupport.dll (qt5printsupport).
+59276 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\VCRUNTIME140.dll -> parsed name vcruntime140.
+59292 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+59292 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Widgets.dll -> parsed name qt5widgets.
+59292 DEBUG: QtLibraryInfo(PyQt5): collecting Qt module associated with imported shared library C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Widgets.dll (qt5widgets).
+59292 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Gui.dll -> parsed name qt5gui.
+59292 DEBUG: QtLibraryInfo(PyQt5): collecting Qt module associated with imported shared library C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Gui.dll (qt5gui).
+59292 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\KERNEL32.dll -> parsed name kernel32.
+59307 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+59307 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+59307 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\GDI32.dll -> parsed name gdi32.
+59323 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\WINSPOOL.DRV -> parsed name winspool.
+59323 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\python3.dll -> parsed name python3.
+59329 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\COMDLG32.dll -> parsed name comdlg32.
+59329 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Core.dll -> parsed name qt5core.
+59329 DEBUG: QtLibraryInfo(PyQt5): collecting Qt module associated with imported shared library C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Core.dll (qt5core).
+59329 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\USER32.dll -> parsed name user32.
+59345 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+59345 DEBUG: QtLibraryInfo(PyQt5): found plugin files for plugin type 'printsupport': ['C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/plugins\\printsupport\\windowsprintersupport.dll']
+59345 DEBUG: QtLibraryInfo(PyQt5): dependencies for PyQt5.QtPrintSupport:
+  hiddenimports = ['PyQt5.QtGui', 'PyQt5.QtWidgets', 'PyQt5.QtCore']
+  binaries = [('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/plugins\\printsupport\\windowsprintersupport.dll', 'PyQt5\\Qt5\\plugins\\printsupport')]
+  datas = []
+59345 INFO: Loading module hook 'hook-PyQt5.QtQuick.py' from 'C:\\Users\\PUDDD\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'...
+59345 DEBUG: QtLibraryInfo(PyQt5): processing module PyQt5.QtQuick...
+59592 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+59607 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+59607 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Gui.dll -> parsed name qt5gui.
+59607 DEBUG: QtLibraryInfo(PyQt5): collecting Qt module associated with imported shared library C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Gui.dll (qt5gui).
+59607 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\VCRUNTIME140.dll -> parsed name vcruntime140.
+59607 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Qml.dll -> parsed name qt5qml.
+59607 DEBUG: QtLibraryInfo(PyQt5): collecting Qt module associated with imported shared library C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Qml.dll (qt5qml).
+59623 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Quick.dll -> parsed name qt5quick.
+59623 DEBUG: QtLibraryInfo(PyQt5): collecting Qt module associated with imported shared library C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Quick.dll (qt5quick).
+59708 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Gui.dll -> parsed name qt5gui.
+59708 DEBUG: QtLibraryInfo(PyQt5): collecting Qt module associated with imported shared library C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Gui.dll (qt5gui).
+59708 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\KERNEL32.dll -> parsed name kernel32.
+59708 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+59708 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+59723 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Network.dll -> parsed name qt5network.
+59723 DEBUG: QtLibraryInfo(PyQt5): collecting Qt module associated with imported shared library C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Network.dll (qt5network).
+59730 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Qml.dll -> parsed name qt5qml.
+59730 DEBUG: QtLibraryInfo(PyQt5): collecting Qt module associated with imported shared library C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Qml.dll (qt5qml).
+59730 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\VCRUNTIME140_1.dll -> parsed name vcruntime140_1.
+59730 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\python3.dll -> parsed name python3.
+59730 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Core.dll -> parsed name qt5core.
+59730 DEBUG: QtLibraryInfo(PyQt5): collecting Qt module associated with imported shared library C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Core.dll (qt5core).
+59746 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\USER32.dll -> parsed name user32.
+59746 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+59746 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5QmlModels.dll -> parsed name qt5qmlmodels.
+59746 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+59761 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\VCRUNTIME140.dll -> parsed name vcruntime140.
+59761 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+59761 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+59761 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\MSVCP140.dll -> parsed name msvcp140.
+59761 DEBUG: QtLibraryInfo(PyQt5): found plugin files for plugin type 'scenegraph': []
+59777 DEBUG: QtLibraryInfo(PyQt5): dependencies for PyQt5.QtQuick:
+  hiddenimports = ['PyQt5.QtGui', 'PyQt5.QtCore', 'PyQt5.QtQml', 'PyQt5.QtNetwork']
+  binaries = []
+  datas = [('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtquickcontrols_bg.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtquickcontrols_ca.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtquickcontrols_da.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtquickcontrols_de.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtquickcontrols_en.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtquickcontrols_fi.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtquickcontrols_fr.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtquickcontrols_ja.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtquickcontrols_ko.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtquickcontrols_ru.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtquickcontrols_tr.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtquickcontrols_uk.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtquickcontrols_zh_TW.qm', 'PyQt5\\Qt5\\translations')]
+59777 INFO: Loading module hook 'hook-PyQt5.QtQuickWidgets.py' from 'C:\\Users\\PUDDD\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'...
+59777 DEBUG: QtLibraryInfo(PyQt5): processing module PyQt5.QtQuickWidgets...
+60041 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+60041 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+60051 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5QuickWidgets.dll -> parsed name qt5quickwidgets.
+60051 DEBUG: QtLibraryInfo(PyQt5): collecting Qt module associated with imported shared library C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5QuickWidgets.dll (qt5quickwidgets).
+60061 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\VCRUNTIME140.dll -> parsed name vcruntime140.
+60061 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Qml.dll -> parsed name qt5qml.
+60061 DEBUG: QtLibraryInfo(PyQt5): collecting Qt module associated with imported shared library C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Qml.dll (qt5qml).
+60061 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Widgets.dll -> parsed name qt5widgets.
+60061 DEBUG: QtLibraryInfo(PyQt5): collecting Qt module associated with imported shared library C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Widgets.dll (qt5widgets).
+60073 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Gui.dll -> parsed name qt5gui.
+60073 DEBUG: QtLibraryInfo(PyQt5): collecting Qt module associated with imported shared library C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Gui.dll (qt5gui).
+60073 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\python3.dll -> parsed name python3.
+60073 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Core.dll -> parsed name qt5core.
+60073 DEBUG: QtLibraryInfo(PyQt5): collecting Qt module associated with imported shared library C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Core.dll (qt5core).
+60083 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\KERNEL32.dll -> parsed name kernel32.
+60083 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+60092 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+60094 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Quick.dll -> parsed name qt5quick.
+60094 DEBUG: QtLibraryInfo(PyQt5): collecting Qt module associated with imported shared library C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Quick.dll (qt5quick).
+60094 DEBUG: QtLibraryInfo(PyQt5): dependencies for PyQt5.QtQuickWidgets:
+  hiddenimports = ['PyQt5.QtQml', 'PyQt5.QtGui', 'PyQt5.QtWidgets', 'PyQt5.QtQuick', 'PyQt5.QtCore']
+  binaries = []
+  datas = []
+60094 INFO: Loading module hook 'hook-PyQt5.QtWebEngineCore.py' from 'C:\\Users\\PUDDD\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'...
+60094 DEBUG: QtLibraryInfo(PyQt5): processing module PyQt5.QtWebEngineCore...
+60335 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5WebEngineCore.dll -> parsed name qt5webenginecore.
+60335 DEBUG: QtLibraryInfo(PyQt5): collecting Qt module associated with imported shared library C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5WebEngineCore.dll (qt5webenginecore).
+60608 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\dxva2.dll -> parsed name dxva2.
+60608 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\SHLWAPI.dll -> parsed name shlwapi.
+60624 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\USP10.dll -> parsed name usp10.
+60624 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\IPHLPAPI.DLL -> parsed name iphlpapi.
+60639 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\WINHTTP.dll -> parsed name winhttp.
+60646 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\VCRUNTIME140.dll -> parsed name vcruntime140.
+60646 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\WTSAPI32.dll -> parsed name wtsapi32.
+60646 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+60661 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\SHELL32.dll -> parsed name shell32.
+60661 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+60661 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\MSVCP140.dll -> parsed name msvcp140.
+60677 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\KERNEL32.dll -> parsed name kernel32.
+60677 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+60693 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\dwmapi.dll -> parsed name dwmapi.
+60693 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+60708 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Network.dll -> parsed name qt5network.
+60708 DEBUG: QtLibraryInfo(PyQt5): collecting Qt module associated with imported shared library C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Network.dll (qt5network).
+60708 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\HID.DLL -> parsed name hid.
+60708 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\GDI32.dll -> parsed name gdi32.
+60724 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\WS2_32.dll -> parsed name ws2_32.
+60724 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\WINSPOOL.DRV -> parsed name winspool.
+60724 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Qml.dll -> parsed name qt5qml.
+60724 DEBUG: QtLibraryInfo(PyQt5): ignoring imported library C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Qml.dll.
+60739 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\VCRUNTIME140_1.dll -> parsed name vcruntime140_1.
+60746 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\COMCTL32.dll -> parsed name comctl32.
+60746 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\python3.dll -> parsed name python3.
+60746 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5WebChannel.dll -> parsed name qt5webchannel.
+60746 DEBUG: QtLibraryInfo(PyQt5): collecting Qt module associated with imported shared library C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5WebChannel.dll (qt5webchannel).
+60762 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+60762 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\dbghelp.dll -> parsed name dbghelp.
+60762 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+60777 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+60777 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+60777 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\d3d9.dll -> parsed name d3d9.
+60793 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\DWrite.dll -> parsed name dwrite.
+60793 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+60808 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\USERENV.dll -> parsed name userenv.
+60824 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+60846 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\d3d11.dll -> parsed name d3d11.
+60862 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Gui.dll -> parsed name qt5gui.
+60862 DEBUG: QtLibraryInfo(PyQt5): collecting Qt module associated with imported shared library C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Gui.dll (qt5gui).
+60862 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Quick.dll -> parsed name qt5quick.
+60862 DEBUG: QtLibraryInfo(PyQt5): collecting Qt module associated with imported shared library C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Quick.dll (qt5quick).
+60862 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\WINMM.dll -> parsed name winmm.
+60909 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\OLEAUT32.dll -> parsed name oleaut32.
+60924 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\Secur32.dll -> parsed name secur32.
+60924 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Positioning.dll -> parsed name qt5positioning.
+60924 DEBUG: QtLibraryInfo(PyQt5): collecting Qt module associated with imported shared library C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Positioning.dll (qt5positioning).
+60940 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\dxgi.dll -> parsed name dxgi.
+60949 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\VERSION.dll -> parsed name version.
+60957 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\ncrypt.dll -> parsed name ncrypt.
+60969 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\urlmon.dll -> parsed name urlmon.
+60987 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\CRYPT32.dll -> parsed name crypt32.
+61040 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\COMDLG32.dll -> parsed name comdlg32.
+61048 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Core.dll -> parsed name qt5core.
+61048 DEBUG: QtLibraryInfo(PyQt5): collecting Qt module associated with imported shared library C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Core.dll (qt5core).
+61050 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+61074 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\dhcpcsvc.DLL -> parsed name dhcpcsvc.
+61088 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\USER32.dll -> parsed name user32.
+61110 DEBUG: QtLibraryInfo(PyQt5): dependencies for PyQt5.QtWebEngineCore:
+  hiddenimports = ['PyQt5.QtWebChannel', 'PyQt5.QtNetwork', 'PyQt5.QtGui', 'PyQt5.QtQuick', 'PyQt5.QtCore', 'PyQt5.QtPositioning']
+  binaries = []
+  datas = [('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtwebengine_ca.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtwebengine_de.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtwebengine_en.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtwebengine_es.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtwebengine_ko.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtwebengine_pl.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtwebengine_ru.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtwebengine_uk.qm', 'PyQt5\\Qt5\\translations')]
+61232 INFO: Loading module hook 'hook-PyQt5.QtPositioning.py' from 'C:\\Users\\PUDDD\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'...
+61242 DEBUG: QtLibraryInfo(PyQt5): processing module PyQt5.QtPositioning...
+61667 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\VCRUNTIME140.dll -> parsed name vcruntime140.
+61667 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+61677 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+61677 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Positioning.dll -> parsed name qt5positioning.
+61677 DEBUG: QtLibraryInfo(PyQt5): collecting Qt module associated with imported shared library C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Positioning.dll (qt5positioning).
+61718 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\VCRUNTIME140.dll -> parsed name vcruntime140.
+61728 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+61736 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\VCRUNTIME140_1.dll -> parsed name vcruntime140_1.
+61738 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\MSVCP140.dll -> parsed name msvcp140.
+61738 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\python3.dll -> parsed name python3.
+61748 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Core.dll -> parsed name qt5core.
+61748 DEBUG: QtLibraryInfo(PyQt5): collecting Qt module associated with imported shared library C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Core.dll (qt5core).
+61756 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\KERNEL32.dll -> parsed name kernel32.
+61758 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+61766 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+61768 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+61788 DEBUG: QtLibraryInfo(PyQt5): found plugin files for plugin type 'position': ['C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/plugins\\position\\qtposition_positionpoll.dll', 'C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/plugins\\position\\qtposition_serialnmea.dll', 'C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/plugins\\position\\qtposition_winrt.dll']
+61788 DEBUG: QtLibraryInfo(PyQt5): dependencies for PyQt5.QtPositioning:
+  hiddenimports = ['PyQt5.QtCore']
+  binaries = [('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/plugins\\position\\qtposition_positionpoll.dll', 'PyQt5\\Qt5\\plugins\\position'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/plugins\\position\\qtposition_serialnmea.dll', 'PyQt5\\Qt5\\plugins\\position'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/plugins\\position\\qtposition_winrt.dll', 'PyQt5\\Qt5\\plugins\\position')]
+  datas = [('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtlocation_bg.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtlocation_ca.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtlocation_da.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtlocation_de.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtlocation_en.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtlocation_es.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtlocation_fi.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtlocation_fr.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtlocation_hu.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtlocation_ko.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtlocation_pl.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtlocation_ru.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtlocation_tr.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtlocation_uk.qm', 'PyQt5\\Qt5\\translations')]
+61807 INFO: Loading module hook 'hook-PyQt5.QtQml.py' from 'C:\\Users\\PUDDD\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'...
+61807 DEBUG: QtLibraryInfo(PyQt5): processing module PyQt5.QtQml...
+62231 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+62231 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+62239 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\VCRUNTIME140.dll -> parsed name vcruntime140.
+62239 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Qml.dll -> parsed name qt5qml.
+62239 DEBUG: QtLibraryInfo(PyQt5): collecting Qt module associated with imported shared library C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Qml.dll (qt5qml).
+62340 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Gui.dll -> parsed name qt5gui.
+62342 DEBUG: QtLibraryInfo(PyQt5): collecting Qt module associated with imported shared library C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Gui.dll (qt5gui).
+62342 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\MSVCP140.dll -> parsed name msvcp140.
+62353 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\KERNEL32.dll -> parsed name kernel32.
+62353 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+62363 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+62383 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Network.dll -> parsed name qt5network.
+62383 DEBUG: QtLibraryInfo(PyQt5): collecting Qt module associated with imported shared library C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Network.dll (qt5network).
+62391 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\VCRUNTIME140_1.dll -> parsed name vcruntime140_1.
+62393 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\python3.dll -> parsed name python3.
+62403 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Core.dll -> parsed name qt5core.
+62403 DEBUG: QtLibraryInfo(PyQt5): collecting Qt module associated with imported shared library C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Core.dll (qt5core).
+62411 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+62423 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+62423 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\VCRUNTIME140.dll -> parsed name vcruntime140.
+62433 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+62444 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+62454 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\SHELL32.dll -> parsed name shell32.
+62454 DEBUG: QtLibraryInfo(PyQt5): found plugin files for plugin type 'qmltooling': []
+62462 DEBUG: QtLibraryInfo(PyQt5): dependencies for PyQt5.QtQml:
+  hiddenimports = ['PyQt5.QtGui', 'PyQt5.QtCore', 'PyQt5.QtNetwork']
+  binaries = []
+  datas = [('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtdeclarative_bg.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtdeclarative_da.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtdeclarative_de.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtdeclarative_en.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtdeclarative_es.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtdeclarative_fi.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtdeclarative_fr.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtdeclarative_hu.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtdeclarative_ja.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtdeclarative_ko.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtdeclarative_lv.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtdeclarative_pl.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtdeclarative_ru.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtdeclarative_sk.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtdeclarative_tr.qm', 'PyQt5\\Qt5\\translations'), ('C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/translations\\qtdeclarative_uk.qm', 'PyQt5\\Qt5\\translations')]
+64083 INFO: Loading module hook 'hook-PyQt5.QtWebChannel.py' from 'C:\\Users\\PUDDD\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'...
+64083 DEBUG: QtLibraryInfo(PyQt5): processing module PyQt5.QtWebChannel...
+64427 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\VCRUNTIME140.dll -> parsed name vcruntime140.
+64443 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+64443 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+64443 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\python3.dll -> parsed name python3.
+64443 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Core.dll -> parsed name qt5core.
+64443 DEBUG: QtLibraryInfo(PyQt5): collecting Qt module associated with imported shared library C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Core.dll (qt5core).
+64459 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\KERNEL32.dll -> parsed name kernel32.
+64459 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5WebChannel.dll -> parsed name qt5webchannel.
+64459 DEBUG: QtLibraryInfo(PyQt5): collecting Qt module associated with imported shared library C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5WebChannel.dll (qt5webchannel).
+64474 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\VCRUNTIME140.dll -> parsed name vcruntime140.
+64474 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+64490 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+64490 DEBUG: QtLibraryInfo(PyQt5): raw imported library name  -> parsed name .
+64490 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Qml.dll -> parsed name qt5qml.
+64490 DEBUG: QtLibraryInfo(PyQt5): ignoring imported library C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Qml.dll.
+64505 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Core.dll -> parsed name qt5core.
+64505 DEBUG: QtLibraryInfo(PyQt5): collecting Qt module associated with imported shared library C:/Users/PUDDD/AppData/Local/Programs/Python/Python311/Lib/site-packages/PyQt5/Qt5/bin\Qt5Core.dll (qt5core).
+64512 DEBUG: QtLibraryInfo(PyQt5): raw imported library name C:\WINDOWS\system32\KERNEL32.dll -> parsed name kernel32.
+64512 DEBUG: QtLibraryInfo(PyQt5): dependencies for PyQt5.QtWebChannel:
+  hiddenimports = ['PyQt5.QtCore']
+  binaries = []
+  datas = []
+64715 DEBUG: Looking for egg data files...
+64715 INFO: Looking for ctypes DLLs
+64784 INFO: Analyzing run-time hooks ...
+64784 INFO: Including run-time hook 'C:\\Users\\PUDDD\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py'
+64800 INFO: Including run-time hook 'C:\\Users\\PUDDD\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pyqt5webengine.py'
+64800 INFO: Including run-time hook 'C:\\Users\\PUDDD\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pyqt5.py'
+64815 INFO: Including run-time hook 'C:\\Users\\PUDDD\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py'
+65131 DEBUG: Module collection settings: {}
+65131 INFO: Looking for dynamic libraries
+3660 INFO: Extra DLL search directories (AddDllDirectory): ['C:\\Users\\PUDDD\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyQt5\\Qt5\\bin']
+3662 INFO: Extra DLL search directories (PATH): ['C:\\Users\\PUDDD\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyQt5\\Qt5\\bin', 'C:\\ffmpeg\\bin', 'C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.7.7-hotspot\\bin', 'C:\\Windows\\system32', 'C:\\Windows', 'C:\\Windows\\System32\\Wbem', 'C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\', 'C:\\ffmpeg\\bin', 'C:\\Users\\PUDDD\\AppData\\Local\\Programs\\Python\\Python311\\', 'C:\\Users\\PUDDD\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\', 'C:\\Users\\PUDDD\\Downloads\\Compressed\\wget-1.21.3-win64\\', 'C:\\Users\\PUDDD\\Desktop\\MEDIA\\Video Editing\\yt-dlp\\', 'C:\\Program Files\\torrenttools\\', 'C:\\Program Files\\Git\\cmd', 'C:\\Program Files\\Git\\bin', 'C:\\Program Files\\Git\\cmd', 'C:\\Program Files\\dotnet\\', 'C:\\Users\\PUDDD\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\nuitka\\build\\inline_copy\\bin', 'C:\\Users\\PUDDD\\AppData\\Local\\Programs\\Python\\Launcher\\', 'G:\\Software\\ffmpeg\\bin\\', 'c:\\users\\puddd\\.local\\bin', 'c:\\users\\puddd\\appdata\\roaming\\python\\python311\\scripts', 'c:\\ffmpeg', 'C:\\ffmpeg\\bin', 'c:\\page', 'C:\\ffmpeg\\bin\\', 'C:\\php', 'C:\\php\\']
+3682 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\python311.dll
+3753 DEBUG: Dependent assemblies of C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\python311.dll:
+3753 DEBUG: *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+3753 DEBUG: Skipping assembly *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+3814 DEBUG: Skipping ADVAPI32.dll dependency of python311.dll
+3824 DEBUG: Skipping WS2_32.dll dependency of python311.dll
+3854 DEBUG: Adding VCRUNTIME140.dll dependency of python311.dll from C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\VCRUNTIME140.dll
+3903 DEBUG: Skipping bcrypt.dll dependency of python311.dll
+3915 DEBUG: Skipping KERNEL32.dll dependency of python311.dll
+3925 DEBUG: Skipping VERSION.dll dependency of python311.dll
+3976 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\VCRUNTIME140.dll
+4016 DEBUG: Skipping KERNEL32.dll dependency of VCRUNTIME140.dll
+4047 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\Qt\labs\folderlistmodel\qmlfolderlistmodelplugin.dll
+4077 DEBUG: Adding Qt5Core.dll dependency of qmlfolderlistmodelplugin.dll from C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5Core.dll
+4097 DEBUG: Skipping KERNEL32.dll dependency of qmlfolderlistmodelplugin.dll
+4107 DEBUG: Adding Qt5Qml.dll dependency of qmlfolderlistmodelplugin.dll from C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5Qml.dll
+4128 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\libGLESv2.dll
+4227 DEBUG: Skipping d3d9.dll dependency of libGLESv2.dll
+4229 DEBUG: Adding VCRUNTIME140_1.dll dependency of libGLESv2.dll from C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\VCRUNTIME140_1.dll
+4239 DEBUG: Skipping KERNEL32.dll dependency of libGLESv2.dll
+4269 DEBUG: Adding MSVCP140.dll dependency of libGLESv2.dll from C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\MSVCP140.dll
+4279 DEBUG: Skipping USER32.dll dependency of libGLESv2.dll
+4340 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\QtQuick\LocalStorage\qmllocalstorageplugin.dll
+4370 DEBUG: Skipping KERNEL32.dll dependency of qmllocalstorageplugin.dll
+4400 DEBUG: Adding Qt5Sql.dll dependency of qmllocalstorageplugin.dll from C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5Sql.dll
+4400 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\QtQuick\Controls.2\Fusion\qtquickcontrols2fusionstyleplugin.dll
+4492 DEBUG: Adding Qt5QuickControls2.dll dependency of qtquickcontrols2fusionstyleplugin.dll from C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5QuickControls2.dll
+4512 DEBUG: Skipping KERNEL32.dll dependency of qtquickcontrols2fusionstyleplugin.dll
+4522 DEBUG: Adding Qt5Gui.dll dependency of qtquickcontrols2fusionstyleplugin.dll from C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5Gui.dll
+4532 DEBUG: Adding Qt5Quick.dll dependency of qtquickcontrols2fusionstyleplugin.dll from C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5Quick.dll
+4542 DEBUG: Adding Qt5QuickTemplates2.dll dependency of qtquickcontrols2fusionstyleplugin.dll from C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5QuickTemplates2.dll
+4551 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\QtWebSockets\declarative_qmlwebsockets.dll
+4573 DEBUG: Skipping KERNEL32.dll dependency of declarative_qmlwebsockets.dll
+4591 DEBUG: Adding Qt5Network.dll dependency of declarative_qmlwebsockets.dll from C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5Network.dll
+4623 DEBUG: Adding Qt5WebSockets.dll dependency of declarative_qmlwebsockets.dll from C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5WebSockets.dll
+4623 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\QtQuick\Shapes\qmlshapesplugin.dll
+4641 DEBUG: Adding Qt5QuickShapes.dll dependency of qmlshapesplugin.dll from C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5QuickShapes.dll
+4654 DEBUG: Skipping KERNEL32.dll dependency of qmlshapesplugin.dll
+4664 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\Qt\labs\qmlmodels\labsmodelsplugin.dll
+4692 DEBUG: Skipping KERNEL32.dll dependency of labsmodelsplugin.dll
+4712 DEBUG: Adding Qt5QmlModels.dll dependency of labsmodelsplugin.dll from C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5QmlModels.dll
+4714 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\plugins\imageformats\qgif.dll
+4745 DEBUG: Skipping KERNEL32.dll dependency of qgif.dll
+4765 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\Qt\labs\animation\labsanimationplugin.dll
+4785 DEBUG: Skipping KERNEL32.dll dependency of labsanimationplugin.dll
+4805 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\plugins\platforms\qwindows.dll
+4856 DEBUG: Skipping WTSAPI32.dll dependency of qwindows.dll
+4856 DEBUG: Skipping GDI32.dll dependency of qwindows.dll
+4866 DEBUG: Adding VCRUNTIME140_1.dll dependency of qwindows.dll from C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\VCRUNTIME140_1.dll
+4876 DEBUG: Skipping ole32.dll dependency of qwindows.dll
+4896 DEBUG: Skipping KERNEL32.dll dependency of qwindows.dll
+4896 DEBUG: Skipping IMM32.dll dependency of qwindows.dll
+4917 DEBUG: Skipping SHELL32.dll dependency of qwindows.dll
+4927 DEBUG: Skipping OLEAUT32.dll dependency of qwindows.dll
+4937 DEBUG: Skipping WINMM.dll dependency of qwindows.dll
+4945 DEBUG: Skipping dwmapi.dll dependency of qwindows.dll
+4947 DEBUG: Skipping USER32.dll dependency of qwindows.dll
+4957 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\QtQuick3D\Materials\qtquick3dmaterialplugin.dll
+4987 DEBUG: Adding Qt5Quick3D.dll dependency of qtquick3dmaterialplugin.dll from C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5Quick3D.dll
+4995 DEBUG: Skipping KERNEL32.dll dependency of qtquick3dmaterialplugin.dll
+5005 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\QtNfc\declarative_nfc.dll
+5036 DEBUG: Skipping KERNEL32.dll dependency of declarative_nfc.dll
+5048 DEBUG: Adding Qt5Nfc.dll dependency of declarative_nfc.dll from C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5Nfc.dll
+5058 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\ssleay32.dll
+5088 DEBUG: Skipping KERNEL32.dll dependency of ssleay32.dll
+5106 DEBUG: Adding LIBEAY32.dll dependency of ssleay32.dll from C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\LIBEAY32.dll
+5119 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\QtQuick\Controls\Styles\Flat\qtquickextrasflatplugin.dll
+5159 DEBUG: Skipping KERNEL32.dll dependency of qtquickextrasflatplugin.dll
+5187 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\plugins\imageformats\qico.dll
+5209 DEBUG: Skipping KERNEL32.dll dependency of qico.dll
+5219 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\QtQuick\Controls.2\Universal\qtquickcontrols2universalstyleplugin.dll
+5250 DEBUG: Skipping KERNEL32.dll dependency of qtquickcontrols2universalstyleplugin.dll
+5290 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\plugins\iconengines\qsvgicon.dll
+5310 DEBUG: Adding Qt5Svg.dll dependency of qsvgicon.dll from C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5Svg.dll
+5321 DEBUG: Skipping KERNEL32.dll dependency of qsvgicon.dll
+5339 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\QtQuick\Window.2\windowplugin.dll
+5361 DEBUG: Skipping KERNEL32.dll dependency of windowplugin.dll
+5381 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\opengl32sw.dll
+5523 DEBUG: Skipping GDI32.dll dependency of opengl32sw.dll
+5533 DEBUG: Skipping SHELL32.dll dependency of opengl32sw.dll
+5541 DEBUG: Skipping ADVAPI32.dll dependency of opengl32sw.dll
+5543 DEBUG: Skipping KERNEL32.dll dependency of opengl32sw.dll
+5553 DEBUG: Skipping imagehlp.dll dependency of opengl32sw.dll
+5553 DEBUG: Skipping USER32.dll dependency of opengl32sw.dll
+5553 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\QtWebEngineProcess.exe
+5563 DEBUG: Dependent assemblies of C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\QtWebEngineProcess.exe:
+5563 DEBUG: *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+5563 DEBUG: Skipping assembly *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+5584 DEBUG: Skipping ADVAPI32.dll dependency of QtWebEngineProcess.exe
+5584 DEBUG: Skipping SHELL32.dll dependency of QtWebEngineProcess.exe
+5594 DEBUG: Skipping KERNEL32.dll dependency of QtWebEngineProcess.exe
+5604 DEBUG: Adding Qt5WebEngineCore.dll dependency of QtWebEngineProcess.exe from C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5WebEngineCore.dll
+5634 DEBUG: Skipping WINMM.dll dependency of QtWebEngineProcess.exe
+5642 DEBUG: Skipping ole32.dll dependency of QtWebEngineProcess.exe
+5654 DEBUG: Skipping USER32.dll dependency of QtWebEngineProcess.exe
+5673 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\QtQml\WorkerScript.2\workerscriptplugin.dll
+5695 DEBUG: Skipping KERNEL32.dll dependency of workerscriptplugin.dll
+5705 DEBUG: Adding Qt5QmlWorkerScript.dll dependency of workerscriptplugin.dll from C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5QmlWorkerScript.dll
+5725 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\Qt\labs\sharedimage\sharedimageplugin.dll
+5753 DEBUG: Skipping KERNEL32.dll dependency of sharedimageplugin.dll
+5776 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\QtQuick\Controls.2\Imagine\qtquickcontrols2imaginestyleplugin.dll
+5834 DEBUG: Skipping KERNEL32.dll dependency of qtquickcontrols2imaginestyleplugin.dll
+5867 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\QtQuick\Templates.2\qtquicktemplates2plugin.dll
+5958 DEBUG: Skipping KERNEL32.dll dependency of qtquicktemplates2plugin.dll
+5998 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\QtQuick\Dialogs\dialogplugin.dll
+6089 DEBUG: Skipping KERNEL32.dll dependency of dialogplugin.dll
+6109 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\QtWebView\declarative_webview.dll
+6138 DEBUG: Skipping KERNEL32.dll dependency of declarative_webview.dll
+6150 DEBUG: Adding Qt5WebView.dll dependency of declarative_webview.dll from C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5WebView.dll
+6160 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\QtQuick\Extras\qtquickextrasplugin.dll
+6180 DEBUG: Skipping KERNEL32.dll dependency of qtquickextrasplugin.dll
+6211 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\QtPositioning\declarative_positioning.dll
+6231 DEBUG: Adding Qt5Positioning.dll dependency of declarative_positioning.dll from C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5Positioning.dll
+6241 DEBUG: Skipping KERNEL32.dll dependency of declarative_positioning.dll
+6251 DEBUG: Adding Qt5PositioningQuick.dll dependency of declarative_positioning.dll from C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5PositioningQuick.dll
+6261 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\plugins\imageformats\qicns.dll
+6289 DEBUG: Skipping KERNEL32.dll dependency of qicns.dll
+6310 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\plugins\platforms\qoffscreen.dll
+6352 DEBUG: Skipping KERNEL32.dll dependency of qoffscreen.dll
+6393 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\QtRemoteObjects\qtremoteobjects.dll
+6413 DEBUG: Skipping KERNEL32.dll dependency of qtremoteobjects.dll
+6431 DEBUG: Adding Qt5RemoteObjects.dll dependency of qtremoteobjects.dll from C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5RemoteObjects.dll
+6433 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\QtQuick\Controls.2\Material\qtquickcontrols2materialstyleplugin.dll
+6484 DEBUG: Skipping KERNEL32.dll dependency of qtquickcontrols2materialstyleplugin.dll
+6514 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\QtQuick\Controls\qtquickcontrolsplugin.dll
+6534 DEBUG: Adding Qt5Widgets.dll dependency of qtquickcontrolsplugin.dll from C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5Widgets.dll
+6544 DEBUG: Skipping KERNEL32.dll dependency of qtquickcontrolsplugin.dll
+6585 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\plugins\platforms\qminimal.dll
+6625 DEBUG: Skipping GDI32.dll dependency of qminimal.dll
+6635 DEBUG: Skipping KERNEL32.dll dependency of qminimal.dll
+6655 DEBUG: Skipping ole32.dll dependency of qminimal.dll
+6674 DEBUG: Skipping USER32.dll dependency of qminimal.dll
+6686 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\plugins\imageformats\qjpeg.dll
+6706 DEBUG: Skipping KERNEL32.dll dependency of qjpeg.dll
+6746 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\QtLocation\declarative_location.dll
+6778 DEBUG: Skipping KERNEL32.dll dependency of declarative_location.dll
+6829 DEBUG: Adding Qt5Location.dll dependency of declarative_location.dll from C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5Location.dll
+6839 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\libEGL.dll
+6849 DEBUG: Skipping KERNEL32.dll dependency of libEGL.dll
+6859 DEBUG: Adding libGLESv2.dll dependency of libEGL.dll from C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\libGLESv2.dll
+6869 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\libcrypto-1_1-x64.dll
+7010 DEBUG: Skipping bcrypt.dll dependency of libcrypto-1_1-x64.dll
+7021 DEBUG: Skipping ADVAPI32.dll dependency of libcrypto-1_1-x64.dll
+7039 DEBUG: Skipping WS2_32.dll dependency of libcrypto-1_1-x64.dll
+7041 DEBUG: Skipping KERNEL32.dll dependency of libcrypto-1_1-x64.dll
+7061 DEBUG: Skipping USER32.dll dependency of libcrypto-1_1-x64.dll
+7071 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\QtQuick\Scene2D\qtquickscene2dplugin.dll
+7099 DEBUG: Skipping KERNEL32.dll dependency of qtquickscene2dplugin.dll
+7112 WARNING: lib not found: Qt53DQuickScene2D.dll dependency of C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\QtQuick\Scene2D\qtquickscene2dplugin.dll
+7112 WARNING: lib not found: Qt53DRender.dll dependency of C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\QtQuick\Scene2D\qtquickscene2dplugin.dll
+7122 WARNING: lib not found: Qt53DCore.dll dependency of C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\QtQuick\Scene2D\qtquickscene2dplugin.dll
+7132 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\plugins\imageformats\qwebp.dll
+7162 DEBUG: Skipping KERNEL32.dll dependency of qwebp.dll
+7182 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\plugins\printsupport\windowsprintersupport.dll
+7201 DEBUG: Skipping WINSPOOL.DRV dependency of windowsprintersupport.dll
+7211 DEBUG: Skipping GDI32.dll dependency of windowsprintersupport.dll
+7223 DEBUG: Skipping KERNEL32.dll dependency of windowsprintersupport.dll
+7233 DEBUG: Adding Qt5PrintSupport.dll dependency of windowsprintersupport.dll from C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5PrintSupport.dll
+7243 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\plugins\platformthemes\qxdgdesktopportal.dll
+7261 DEBUG: Adding Qt5DBus.dll dependency of qxdgdesktopportal.dll from C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5DBus.dll
+7273 DEBUG: Skipping KERNEL32.dll dependency of qxdgdesktopportal.dll
+7284 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\QtGraphicalEffects\qtgraphicaleffectsplugin.dll
+7312 DEBUG: Skipping KERNEL32.dll dependency of qtgraphicaleffectsplugin.dll
+7324 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\Qt\labs\settings\qmlsettingsplugin.dll
+7344 DEBUG: Skipping KERNEL32.dll dependency of qmlsettingsplugin.dll
+7365 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\plugins\imageformats\qwbmp.dll
+7385 DEBUG: Skipping KERNEL32.dll dependency of qwbmp.dll
+7405 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\QtQml\Models.2\modelsplugin.dll
+7433 DEBUG: Skipping KERNEL32.dll dependency of modelsplugin.dll
+7446 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\QtQuick\Controls.2\qtquickcontrols2plugin.dll
+7486 DEBUG: Skipping KERNEL32.dll dependency of qtquickcontrols2plugin.dll
+7536 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\plugins\bearer\qgenericbearer.dll
+7547 DEBUG: Skipping IPHLPAPI.DLL dependency of qgenericbearer.dll
+7567 DEBUG: Skipping KERNEL32.dll dependency of qgenericbearer.dll
+7577 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\QtWebEngine\qtwebengineplugin.dll
+7595 DEBUG: Adding Qt5WebEngine.dll dependency of qtwebengineplugin.dll from C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5WebEngine.dll
+7607 DEBUG: Skipping KERNEL32.dll dependency of qtwebengineplugin.dll
+7635 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\plugins\position\qtposition_serialnmea.dll
+7666 DEBUG: Skipping KERNEL32.dll dependency of qtposition_serialnmea.dll
+7668 DEBUG: Adding Qt5SerialPort.dll dependency of qtposition_serialnmea.dll from C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5SerialPort.dll
+7688 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\Qt\labs\wavefrontmesh\qmlwavefrontmeshplugin.dll
+7708 DEBUG: Skipping KERNEL32.dll dependency of qmlwavefrontmeshplugin.dll
+7729 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\d3dcompiler_47.dll
+7809 DEBUG: Skipping msvcrt.dll dependency of d3dcompiler_47.dll
+7809 DEBUG: Skipping KERNEL32.dll dependency of d3dcompiler_47.dll
+7819 DEBUG: Skipping RPCRT4.dll dependency of d3dcompiler_47.dll
+7819 DEBUG: Skipping ADVAPI32.dll dependency of d3dcompiler_47.dll
+7819 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\QtGraphicalEffects\private\qtgraphicaleffectsprivate.dll
+7840 DEBUG: Skipping KERNEL32.dll dependency of qtgraphicaleffectsprivate.dll
+7870 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\QtQml\qmlplugin.dll
+7890 DEBUG: Skipping KERNEL32.dll dependency of qmlplugin.dll
+7910 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\QtQuick\Particles.2\particlesplugin.dll
+7921 DEBUG: Adding Qt5QuickParticles.dll dependency of particlesplugin.dll from C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5QuickParticles.dll
+7939 DEBUG: Skipping KERNEL32.dll dependency of particlesplugin.dll
+7951 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\QtSensors\declarative_sensors.dll
+7971 DEBUG: Skipping KERNEL32.dll dependency of declarative_sensors.dll
+8001 DEBUG: Adding Qt5Sensors.dll dependency of declarative_sensors.dll from C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5Sensors.dll
+8012 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\QtQml\RemoteObjects\qtqmlremoteobjects.dll
+8032 DEBUG: Skipping KERNEL32.dll dependency of qtqmlremoteobjects.dll
+8042 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\libssl-1_1-x64.dll
+8092 DEBUG: Skipping KERNEL32.dll dependency of libssl-1_1-x64.dll
+8113 DEBUG: Adding libcrypto-1_1-x64.dll dependency of libssl-1_1-x64.dll from C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\libcrypto-1_1-x64.dll
+8123 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\QtQuick\PrivateWidgets\widgetsplugin.dll
+8153 DEBUG: Skipping KERNEL32.dll dependency of widgetsplugin.dll
+8183 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\QtMultimedia\declarative_multimedia.dll
+8214 DEBUG: Adding Qt5Multimedia.dll dependency of declarative_multimedia.dll from C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5Multimedia.dll
+8214 DEBUG: Skipping KERNEL32.dll dependency of declarative_multimedia.dll
+8224 WARNING: lib not found: Qt5MultimediaQuick.dll dependency of C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\QtMultimedia\declarative_multimedia.dll
+8254 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\QtQuick3D\Helpers\qtquick3dhelpersplugin.dll
+8284 DEBUG: Skipping KERNEL32.dll dependency of qtquick3dhelpersplugin.dll
+8305 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\QtQuick\XmlListModel\qmlxmllistmodelplugin.dll
+8313 DEBUG: Adding Qt5XmlPatterns.dll dependency of qmlxmllistmodelplugin.dll from C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5XmlPatterns.dll
+8323 DEBUG: Skipping KERNEL32.dll dependency of qmlxmllistmodelplugin.dll
+8338 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\QtQuick3D\qquick3dplugin.dll
+8370 DEBUG: Skipping KERNEL32.dll dependency of qquick3dplugin.dll
+8386 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\QtQuick\Scene3D\qtquickscene3dplugin.dll
+8401 WARNING: lib not found: Qt53DAnimation.dll dependency of C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\QtQuick\Scene3D\qtquickscene3dplugin.dll
+8423 WARNING: lib not found: Qt53DInput.dll dependency of C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\QtQuick\Scene3D\qtquickscene3dplugin.dll
+8423 DEBUG: Skipping KERNEL32.dll dependency of qtquickscene3dplugin.dll
+8438 WARNING: lib not found: Qt53DLogic.dll dependency of C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\QtQuick\Scene3D\qtquickscene3dplugin.dll
+8454 WARNING: lib not found: Qt53DRender.dll dependency of C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\QtQuick\Scene3D\qtquickscene3dplugin.dll
+8454 WARNING: lib not found: Qt53DCore.dll dependency of C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\QtQuick\Scene3D\qtquickscene3dplugin.dll
+8470 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\plugins\platforms\qwebgl.dll
+8485 DEBUG: Skipping GDI32.dll dependency of qwebgl.dll
+8501 DEBUG: Skipping KERNEL32.dll dependency of qwebgl.dll
+8539 DEBUG: Skipping ole32.dll dependency of qwebgl.dll
+8539 DEBUG: Skipping USER32.dll dependency of qwebgl.dll
+8554 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\plugins\styles\qwindowsvistastyle.dll
+8570 DEBUG: Skipping GDI32.dll dependency of qwindowsvistastyle.dll
+8586 DEBUG: Skipping KERNEL32.dll dependency of qwindowsvistastyle.dll
+8586 DEBUG: Skipping UxTheme.dll dependency of qwindowsvistastyle.dll
+8601 DEBUG: Skipping USER32.dll dependency of qwindowsvistastyle.dll
+8601 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\QtQuick3D\Effects\qtquick3deffectplugin.dll
+8639 DEBUG: Skipping KERNEL32.dll dependency of qtquick3deffectplugin.dll
+8639 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\plugins\generic\qtuiotouchplugin.dll
+8670 DEBUG: Skipping KERNEL32.dll dependency of qtuiotouchplugin.dll
+8686 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\QtQuick\Layouts\qquicklayoutsplugin.dll
+8701 DEBUG: Skipping KERNEL32.dll dependency of qquicklayoutsplugin.dll
+8739 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\QtQuick\Dialogs\Private\dialogsprivateplugin.dll
+8770 DEBUG: Skipping KERNEL32.dll dependency of dialogsprivateplugin.dll
+8802 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\plugins\imageformats\qtiff.dll
+8839 DEBUG: Skipping KERNEL32.dll dependency of qtiff.dll
+8871 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\Qt\labs\platform\qtlabsplatformplugin.dll
+8902 DEBUG: Skipping KERNEL32.dll dependency of qtlabsplatformplugin.dll
+8940 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\QtWebChannel\declarative_webchannel.dll
+8955 DEBUG: Adding Qt5WebChannel.dll dependency of declarative_webchannel.dll from C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5WebChannel.dll
+8971 DEBUG: Skipping KERNEL32.dll dependency of declarative_webchannel.dll
+8971 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\plugins\imageformats\qtga.dll
+9002 DEBUG: Skipping KERNEL32.dll dependency of qtga.dll
+9024 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\plugins\position\qtposition_positionpoll.dll
+9056 DEBUG: Skipping KERNEL32.dll dependency of qtposition_positionpoll.dll
+9056 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\QtQuick\Timeline\qtquicktimelineplugin.dll
+9087 DEBUG: Skipping KERNEL32.dll dependency of qtquicktimelineplugin.dll
+9103 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\QtBluetooth\declarative_bluetooth.dll
+9125 DEBUG: Skipping KERNEL32.dll dependency of declarative_bluetooth.dll
+9140 DEBUG: Adding Qt5Bluetooth.dll dependency of declarative_bluetooth.dll from C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5Bluetooth.dll
+9156 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\libeay32.dll
+9272 DEBUG: Skipping GDI32.dll dependency of libeay32.dll
+9287 DEBUG: Skipping ADVAPI32.dll dependency of libeay32.dll
+9287 DEBUG: Skipping WS2_32.dll dependency of libeay32.dll
+9303 DEBUG: Skipping KERNEL32.dll dependency of libeay32.dll
+9325 DEBUG: Skipping USER32.dll dependency of libeay32.dll
+9341 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\plugins\position\qtposition_winrt.dll
+9372 DEBUG: Skipping KERNEL32.dll dependency of qtposition_winrt.dll
+9388 DEBUG: Skipping ole32.dll dependency of qtposition_winrt.dll
+9403 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\QtQml\StateMachine\qtqmlstatemachine.dll
+9425 DEBUG: Skipping KERNEL32.dll dependency of qtqmlstatemachine.dll
+9441 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\plugins\imageformats\qsvg.dll
+9472 DEBUG: Skipping KERNEL32.dll dependency of qsvg.dll
+9472 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\Qt\labs\location\locationlabsplugin.dll
+9504 DEBUG: Skipping KERNEL32.dll dependency of locationlabsplugin.dll
+9519 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\QtTest\qmltestplugin.dll
+9541 DEBUG: Skipping KERNEL32.dll dependency of qmltestplugin.dll
+9557 DEBUG: Adding Qt5QuickTest.dll dependency of qmltestplugin.dll from C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5QuickTest.dll
+9573 DEBUG: Adding Qt5Test.dll dependency of qmltestplugin.dll from C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5Test.dll
+9573 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\Qt\labs\calendar\qtlabscalendarplugin.dll
+9588 DEBUG: Skipping KERNEL32.dll dependency of qtlabscalendarplugin.dll
+9626 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\qml\QtQuick.2\qtquick2plugin.dll
+9642 DEBUG: Skipping KERNEL32.dll dependency of qtquick2plugin.dll
+9673 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\DLLs\_decimal.pyd
+9673 DEBUG: Dependent assemblies of C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\DLLs\_decimal.pyd:
+9673 DEBUG: *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+9673 DEBUG: Skipping assembly *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+9704 DEBUG: Skipping KERNEL32.dll dependency of _decimal.pyd
+9742 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\DLLs\_hashlib.pyd
+9742 DEBUG: Dependent assemblies of C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\DLLs\_hashlib.pyd:
+9742 DEBUG: *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+9742 DEBUG: Skipping assembly *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+9758 DEBUG: Skipping KERNEL32.dll dependency of _hashlib.pyd
+9758 DEBUG: Adding libcrypto-1_1.dll dependency of _hashlib.pyd from C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\DLLs\libcrypto-1_1.dll
+9773 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\DLLs\_lzma.pyd
+9789 DEBUG: Dependent assemblies of C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\DLLs\_lzma.pyd:
+9789 DEBUG: *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+9789 DEBUG: Skipping assembly *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+9805 DEBUG: Skipping KERNEL32.dll dependency of _lzma.pyd
+9805 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\DLLs\_bz2.pyd
+9820 DEBUG: Dependent assemblies of C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\DLLs\_bz2.pyd:
+9820 DEBUG: *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+9820 DEBUG: Skipping assembly *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+9826 DEBUG: Skipping KERNEL32.dll dependency of _bz2.pyd
+9842 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\DLLs\select.pyd
+9842 DEBUG: Dependent assemblies of C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\DLLs\select.pyd:
+9842 DEBUG: *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+9842 DEBUG: Skipping assembly *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+9858 DEBUG: Skipping WS2_32.dll dependency of select.pyd
+9858 DEBUG: Skipping KERNEL32.dll dependency of select.pyd
+9873 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\DLLs\_socket.pyd
+9873 DEBUG: Dependent assemblies of C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\DLLs\_socket.pyd:
+9873 DEBUG: *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+9873 DEBUG: Skipping assembly *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+9889 DEBUG: Skipping IPHLPAPI.DLL dependency of _socket.pyd
+9889 DEBUG: Skipping WS2_32.dll dependency of _socket.pyd
+9889 DEBUG: Skipping KERNEL32.dll dependency of _socket.pyd
+9920 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\DLLs\unicodedata.pyd
+9927 DEBUG: Dependent assemblies of C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\DLLs\unicodedata.pyd:
+9927 DEBUG: *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+9927 DEBUG: Skipping assembly *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+9958 DEBUG: Skipping KERNEL32.dll dependency of unicodedata.pyd
+9989 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\DLLs\_ssl.pyd
+9989 DEBUG: Dependent assemblies of C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\DLLs\_ssl.pyd:
+9989 DEBUG: *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+9989 DEBUG: Skipping assembly *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+10005 DEBUG: Skipping WS2_32.dll dependency of _ssl.pyd
+10005 DEBUG: Skipping KERNEL32.dll dependency of _ssl.pyd
+10043 DEBUG: Skipping CRYPT32.dll dependency of _ssl.pyd
+10043 DEBUG: Adding libssl-1_1.dll dependency of _ssl.pyd from C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\DLLs\libssl-1_1.dll
+10043 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\QtWebEngineWidgets.pyd
+10074 DEBUG: Skipping KERNEL32.dll dependency of QtWebEngineWidgets.pyd
+10074 DEBUG: Adding Qt5WebEngineWidgets.dll dependency of QtWebEngineWidgets.pyd from C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5WebEngineWidgets.dll
+10090 DEBUG: Adding python3.dll dependency of QtWebEngineWidgets.pyd from C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\python3.dll
+10090 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\QtWebEngineCore.pyd
+10143 DEBUG: Skipping KERNEL32.dll dependency of QtWebEngineCore.pyd
+10159 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\QtPositioning.pyd
+10190 DEBUG: Skipping KERNEL32.dll dependency of QtPositioning.pyd
+10205 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\QtWebChannel.pyd
+10230 DEBUG: Skipping KERNEL32.dll dependency of QtWebChannel.pyd
+10248 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\QtQuick.pyd
+10260 DEBUG: Skipping KERNEL32.dll dependency of QtQuick.pyd
+10288 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\QtQml.pyd
+10308 DEBUG: Skipping KERNEL32.dll dependency of QtQml.pyd
+10321 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\QtPrintSupport.pyd
+10351 DEBUG: Skipping KERNEL32.dll dependency of QtPrintSupport.pyd
+10371 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\QtQuickWidgets.pyd
+10391 DEBUG: Skipping KERNEL32.dll dependency of QtQuickWidgets.pyd
+10401 DEBUG: Adding Qt5QuickWidgets.dll dependency of QtQuickWidgets.pyd from C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5QuickWidgets.dll
+10412 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\QtNetwork.pyd
+10432 DEBUG: Skipping KERNEL32.dll dependency of QtNetwork.pyd
+10452 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\sip.cp311-win_amd64.pyd
+10472 DEBUG: Skipping KERNEL32.dll dependency of sip.cp311-win_amd64.pyd
+10493 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\QtWidgets.pyd
+10513 DEBUG: Skipping KERNEL32.dll dependency of QtWidgets.pyd
+10533 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\QtGui.pyd
+10553 DEBUG: Skipping KERNEL32.dll dependency of QtGui.pyd
+10564 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\QtCore.pyd
+10584 DEBUG: Skipping KERNEL32.dll dependency of QtCore.pyd
+10602 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5Core.dll
+10733 DEBUG: Skipping ADVAPI32.dll dependency of Qt5Core.dll
+10749 DEBUG: Skipping WS2_32.dll dependency of Qt5Core.dll
+10765 DEBUG: Skipping NETAPI32.dll dependency of Qt5Core.dll
+10765 DEBUG: Skipping MPR.dll dependency of Qt5Core.dll
+10780 DEBUG: Adding MSVCP140_1.dll dependency of Qt5Core.dll from C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\MSVCP140_1.dll
+10780 DEBUG: Skipping ole32.dll dependency of Qt5Core.dll
+10802 DEBUG: Skipping USERENV.dll dependency of Qt5Core.dll
+10802 DEBUG: Skipping KERNEL32.dll dependency of Qt5Core.dll
+10818 DEBUG: Skipping VERSION.dll dependency of Qt5Core.dll
+10834 DEBUG: Skipping SHELL32.dll dependency of Qt5Core.dll
+10849 DEBUG: Skipping WINMM.dll dependency of Qt5Core.dll
+10849 DEBUG: Skipping USER32.dll dependency of Qt5Core.dll
+10865 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5Qml.dll
+10918 DEBUG: Skipping SHELL32.dll dependency of Qt5Qml.dll
+10933 DEBUG: Skipping KERNEL32.dll dependency of Qt5Qml.dll
+10965 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\VCRUNTIME140_1.dll
+10980 DEBUG: Skipping KERNEL32.dll dependency of VCRUNTIME140_1.dll
+11002 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\MSVCP140.dll
+11093 DEBUG: Skipping KERNEL32.dll dependency of MSVCP140.dll
+11156 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5Sql.dll
+11215 DEBUG: Skipping KERNEL32.dll dependency of Qt5Sql.dll
+11223 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5QuickControls2.dll
+11256 DEBUG: Skipping KERNEL32.dll dependency of Qt5QuickControls2.dll
+11296 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5Gui.dll
+11599 DEBUG: Skipping dxgi.dll dependency of Qt5Gui.dll
+11619 DEBUG: Skipping GDI32.dll dependency of Qt5Gui.dll
+11619 DEBUG: Skipping d3d11.dll dependency of Qt5Gui.dll
+11638 DEBUG: Skipping KERNEL32.dll dependency of Qt5Gui.dll
+11658 DEBUG: Skipping ole32.dll dependency of Qt5Gui.dll
+11668 DEBUG: Skipping USER32.dll dependency of Qt5Gui.dll
+11684 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5Quick.dll
+11784 DEBUG: Skipping KERNEL32.dll dependency of Qt5Quick.dll
+11816 DEBUG: Skipping USER32.dll dependency of Qt5Quick.dll
+11831 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5QuickTemplates2.dll
+11885 DEBUG: Skipping KERNEL32.dll dependency of Qt5QuickTemplates2.dll
+11916 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5Network.dll
+11969 DEBUG: Skipping IPHLPAPI.DLL dependency of Qt5Network.dll
+11969 DEBUG: Skipping ADVAPI32.dll dependency of Qt5Network.dll
+11985 DEBUG: Skipping WS2_32.dll dependency of Qt5Network.dll
+12000 DEBUG: Skipping KERNEL32.dll dependency of Qt5Network.dll
+12016 DEBUG: Skipping ole32.dll dependency of Qt5Network.dll
+12032 DEBUG: Skipping DNSAPI.dll dependency of Qt5Network.dll
+12032 DEBUG: Skipping CRYPT32.dll dependency of Qt5Network.dll
+12048 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5WebSockets.dll
+12069 DEBUG: Skipping KERNEL32.dll dependency of Qt5WebSockets.dll
+12085 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5QuickShapes.dll
+12117 DEBUG: Skipping KERNEL32.dll dependency of Qt5QuickShapes.dll
+12132 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5QmlModels.dll
+12170 DEBUG: Skipping KERNEL32.dll dependency of Qt5QmlModels.dll
+12201 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\VCRUNTIME140_1.dll
+12217 DEBUG: Skipping KERNEL32.dll dependency of VCRUNTIME140_1.dll
+12217 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5Quick3D.dll
+12270 DEBUG: Adding Qt5Quick3DRender.dll dependency of Qt5Quick3D.dll from C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5Quick3DRender.dll
+12286 DEBUG: Adding Qt5Quick3DUtils.dll dependency of Qt5Quick3D.dll from C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5Quick3DUtils.dll
+12301 DEBUG: Skipping KERNEL32.dll dependency of Qt5Quick3D.dll
+12333 DEBUG: Adding Qt5Quick3DRuntimeRender.dll dependency of Qt5Quick3D.dll from C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5Quick3DRuntimeRender.dll
+12348 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5Nfc.dll
+12386 DEBUG: Skipping KERNEL32.dll dependency of Qt5Nfc.dll
+12386 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5Svg.dll
+12433 DEBUG: Skipping KERNEL32.dll dependency of Qt5Svg.dll
+12448 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5WebEngineCore.dll
+12533 DEBUG: Skipping IPHLPAPI.DLL dependency of Qt5WebEngineCore.dll
+12533 DEBUG: Skipping dxgi.dll dependency of Qt5WebEngineCore.dll
+12549 DEBUG: Skipping SHLWAPI.dll dependency of Qt5WebEngineCore.dll
+12549 DEBUG: Skipping d3d11.dll dependency of Qt5WebEngineCore.dll
+12549 DEBUG: Skipping urlmon.dll dependency of Qt5WebEngineCore.dll
+12564 DEBUG: Skipping WS2_32.dll dependency of Qt5WebEngineCore.dll
+12564 DEBUG: Skipping HID.DLL dependency of Qt5WebEngineCore.dll
+12586 DEBUG: Skipping WTSAPI32.dll dependency of Qt5WebEngineCore.dll
+12586 DEBUG: Skipping dxva2.dll dependency of Qt5WebEngineCore.dll
+12602 DEBUG: Skipping DWrite.dll dependency of Qt5WebEngineCore.dll
+12602 DEBUG: Skipping WINSPOOL.DRV dependency of Qt5WebEngineCore.dll
+12602 DEBUG: Skipping GDI32.dll dependency of Qt5WebEngineCore.dll
+12618 DEBUG: Skipping d3d9.dll dependency of Qt5WebEngineCore.dll
+12633 DEBUG: Skipping dbghelp.dll dependency of Qt5WebEngineCore.dll
+12633 DEBUG: Skipping CRYPT32.dll dependency of Qt5WebEngineCore.dll
+12649 DEBUG: Skipping COMCTL32.dll dependency of Qt5WebEngineCore.dll
+12649 DEBUG: Skipping USERENV.dll dependency of Qt5WebEngineCore.dll
+12671 DEBUG: Skipping ncrypt.dll dependency of Qt5WebEngineCore.dll
+12687 DEBUG: Skipping KERNEL32.dll dependency of Qt5WebEngineCore.dll
+12687 DEBUG: Skipping VERSION.dll dependency of Qt5WebEngineCore.dll
+12702 DEBUG: Skipping COMDLG32.dll dependency of Qt5WebEngineCore.dll
+12718 DEBUG: Skipping USP10.dll dependency of Qt5WebEngineCore.dll
+12718 DEBUG: Skipping WINHTTP.dll dependency of Qt5WebEngineCore.dll
+12734 DEBUG: Skipping SHELL32.dll dependency of Qt5WebEngineCore.dll
+12734 DEBUG: Skipping dhcpcsvc.DLL dependency of Qt5WebEngineCore.dll
+12749 DEBUG: Skipping OLEAUT32.dll dependency of Qt5WebEngineCore.dll
+12749 DEBUG: Skipping Secur32.dll dependency of Qt5WebEngineCore.dll
+12765 DEBUG: Skipping WINMM.dll dependency of Qt5WebEngineCore.dll
+12765 DEBUG: Skipping dwmapi.dll dependency of Qt5WebEngineCore.dll
+12771 DEBUG: Skipping USER32.dll dependency of Qt5WebEngineCore.dll
+12771 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5QmlWorkerScript.dll
+12803 DEBUG: Skipping KERNEL32.dll dependency of Qt5QmlWorkerScript.dll
+12818 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5WebView.dll
+12850 DEBUG: Skipping KERNEL32.dll dependency of Qt5WebView.dll
+12872 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5Positioning.dll
+12903 DEBUG: Skipping KERNEL32.dll dependency of Qt5Positioning.dll
+12934 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5PositioningQuick.dll
+12965 DEBUG: Skipping KERNEL32.dll dependency of Qt5PositioningQuick.dll
+12988 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5RemoteObjects.dll
+13019 DEBUG: Skipping KERNEL32.dll dependency of Qt5RemoteObjects.dll
+13050 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5Widgets.dll
+13135 DEBUG: Skipping GDI32.dll dependency of Qt5Widgets.dll
+13135 DEBUG: Skipping SHELL32.dll dependency of Qt5Widgets.dll
+13150 DEBUG: Skipping KERNEL32.dll dependency of Qt5Widgets.dll
+13185 DEBUG: Skipping ole32.dll dependency of Qt5Widgets.dll
+13193 DEBUG: Skipping UxTheme.dll dependency of Qt5Widgets.dll
+13193 DEBUG: Skipping dwmapi.dll dependency of Qt5Widgets.dll
+13193 DEBUG: Skipping USER32.dll dependency of Qt5Widgets.dll
+13205 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5Location.dll
+13323 DEBUG: Skipping KERNEL32.dll dependency of Qt5Location.dll
+13371 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5PrintSupport.dll
+13386 DEBUG: Skipping WINSPOOL.DRV dependency of Qt5PrintSupport.dll
+13402 DEBUG: Skipping GDI32.dll dependency of Qt5PrintSupport.dll
+13417 DEBUG: Skipping KERNEL32.dll dependency of Qt5PrintSupport.dll
+13424 DEBUG: Skipping USER32.dll dependency of Qt5PrintSupport.dll
+13456 DEBUG: Skipping COMDLG32.dll dependency of Qt5PrintSupport.dll
+13472 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5DBus.dll
+13503 DEBUG: Skipping KERNEL32.dll dependency of Qt5DBus.dll
+13523 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5WebEngine.dll
+13570 DEBUG: Skipping KERNEL32.dll dependency of Qt5WebEngine.dll
+13602 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5SerialPort.dll
+13624 DEBUG: Skipping ADVAPI32.dll dependency of Qt5SerialPort.dll
+13639 DEBUG: Skipping KERNEL32.dll dependency of Qt5SerialPort.dll
+13639 DEBUG: Skipping SETUPAPI.dll dependency of Qt5SerialPort.dll
+13655 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5QuickParticles.dll
+13686 DEBUG: Skipping KERNEL32.dll dependency of Qt5QuickParticles.dll
+13718 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5Sensors.dll
+13802 DEBUG: Skipping KERNEL32.dll dependency of Qt5Sensors.dll
+13824 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5Multimedia.dll
+13887 DEBUG: Skipping KERNEL32.dll dependency of Qt5Multimedia.dll
+13918 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5XmlPatterns.dll
+13956 DEBUG: Skipping KERNEL32.dll dependency of Qt5XmlPatterns.dll
+13971 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5WebChannel.dll
+14002 DEBUG: Skipping KERNEL32.dll dependency of Qt5WebChannel.dll
+14025 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5Bluetooth.dll
+14056 DEBUG: Skipping KERNEL32.dll dependency of Qt5Bluetooth.dll
+14071 DEBUG: Skipping ole32.dll dependency of Qt5Bluetooth.dll
+14087 DEBUG: Skipping USER32.dll dependency of Qt5Bluetooth.dll
+14087 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5QuickTest.dll
+14118 DEBUG: Skipping KERNEL32.dll dependency of Qt5QuickTest.dll
+14140 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5Test.dll
+14172 DEBUG: Skipping KERNEL32.dll dependency of Qt5Test.dll
+14203 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\DLLs\libcrypto-1_1.dll
+14325 DEBUG: Skipping bcrypt.dll dependency of libcrypto-1_1.dll
+14341 DEBUG: Skipping ADVAPI32.dll dependency of libcrypto-1_1.dll
+14356 DEBUG: Skipping WS2_32.dll dependency of libcrypto-1_1.dll
+14356 DEBUG: Skipping KERNEL32.dll dependency of libcrypto-1_1.dll
+14388 DEBUG: Skipping USER32.dll dependency of libcrypto-1_1.dll
+14403 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\DLLs\libssl-1_1.dll
+14448 DEBUG: Skipping KERNEL32.dll dependency of libssl-1_1.dll
+14468 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5WebEngineWidgets.dll
+14498 DEBUG: Skipping KERNEL32.dll dependency of Qt5WebEngineWidgets.dll
+14539 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\python3.dll
+14539 DEBUG: Dependent assemblies of C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\python3.dll:
+14539 DEBUG: *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+14547 DEBUG: Skipping assembly *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+14621 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5QuickWidgets.dll
+14641 DEBUG: Skipping KERNEL32.dll dependency of Qt5QuickWidgets.dll
+14661 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\MSVCP140_1.dll
+14682 DEBUG: Skipping KERNEL32.dll dependency of MSVCP140_1.dll
+14692 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5Quick3DRender.dll
+14725 DEBUG: Skipping KERNEL32.dll dependency of Qt5Quick3DRender.dll
+14741 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5Quick3DUtils.dll
+14772 DEBUG: Skipping KERNEL32.dll dependency of Qt5Quick3DUtils.dll
+14788 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5Quick3DRuntimeRender.dll
+14826 DEBUG: Skipping KERNEL32.dll dependency of Qt5Quick3DRuntimeRender.dll
+14857 DEBUG: Adding Qt5Quick3DAssetImport.dll dependency of Qt5Quick3DRuntimeRender.dll from C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5Quick3DAssetImport.dll
+14873 DEBUG: Analyzing C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyQt5\Qt5\bin\Qt5Quick3DAssetImport.dll
+14904 DEBUG: Skipping KERNEL32.dll dependency of Qt5Quick3DAssetImport.dll
+80660 INFO: Looking for eggs
+80892 INFO: Using Python library C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\python311.dll
+80892 INFO: Found binding redirects: 
+[]
+80923 INFO: Warnings written to G:\Software\py\Python Creations\Completed\Projects\SpotifyArtBandit\Version 1.1\build\SpotifyArtBanditv1dot1\warn-SpotifyArtBanditv1dot1.txt
+81039 INFO: Graph cross-reference written to G:\Software\py\Python Creations\Completed\Projects\SpotifyArtBandit\Version 1.1\build\SpotifyArtBanditv1dot1\xref-SpotifyArtBanditv1dot1.html
+81841 INFO: Graph drawing written to G:\Software\py\Python Creations\Completed\Projects\SpotifyArtBandit\Version 1.1\build\SpotifyArtBanditv1dot1\graph-SpotifyArtBanditv1dot1.dot
+84537 INFO: checking PYZ
+84537 INFO: Building PYZ because PYZ-00.toc is non existent
+84537 INFO: Building PYZ (ZlibArchive) G:\Software\py\Python Creations\Completed\Projects\SpotifyArtBandit\Version 1.1\build\SpotifyArtBanditv1dot1\PYZ-00.pyz
+86886 INFO: Building PYZ (ZlibArchive) G:\Software\py\Python Creations\Completed\Projects\SpotifyArtBandit\Version 1.1\build\SpotifyArtBanditv1dot1\PYZ-00.pyz completed successfully.
+87822 INFO: checking PKG
+87822 INFO: Building PKG because PKG-00.toc is non existent
+87822 INFO: Building PKG (CArchive) SpotifyArtBanditv1dot1.pkg
+88134 DEBUG: Compiling python script/module file C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\loader\pyiboot01_bootstrap.py
+88134 DEBUG: Compiling python script/module file C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\hooks\rthooks\pyi_rth_inspect.py
+88134 DEBUG: Compiling python script/module file C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\hooks\rthooks\pyi_rth_pyqt5webengine.py
+88144 DEBUG: Compiling python script/module file C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\hooks\rthooks\pyi_rth_pyqt5.py
+88144 DEBUG: Compiling python script/module file C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\hooks\rthooks\pyi_rth_pkgutil.py
+88144 DEBUG: Compiling python script/module file G:\Software\py\Python Creations\Completed\Projects\SpotifyArtBandit\Version 1.1\SpotifyArtBanditv1dot1.py
+215757 INFO: Building PKG (CArchive) SpotifyArtBanditv1dot1.pkg completed successfully.
+216171 INFO: Bootloader C:\Users\PUDDD\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+216172 INFO: checking EXE
+216173 INFO: Building EXE because EXE-00.toc is non existent
+216174 INFO: Building EXE from EXE-00.toc
+216177 INFO: Copying bootloader EXE to G:\Software\py\Python Creations\Completed\Projects\SpotifyArtBandit\Version 1.1\dist\SpotifyArtBanditv1dot1.exe.notanexecutable
+217773 INFO: Copying icon to EXE
+217789 INFO: Copying icons from ['G:\\Software\\py\\Python Creations\\Completed\\Projects\\SpotifyArtBandit\\Version 1.1\\spotifyartworkdownloader.ico']
+217801 INFO: Writing RT_GROUP_ICON 0 resource with 20 bytes
+217801 INFO: Writing RT_ICON 1 resource with 117167 bytes
+217904 INFO: Copying 0 resources to EXE
+217909 INFO: Embedding manifest in EXE
+217927 INFO: Updating manifest in G:\Software\py\Python Creations\Completed\Projects\SpotifyArtBandit\Version 1.1\dist\SpotifyArtBanditv1dot1.exe.notanexecutable
+217934 INFO: Updating resource type 24 name 1 language 0
+218734 INFO: Appending PKG archive to EXE
+259776 INFO: Fixing EXE headers
+284910 INFO: Building EXE from EXE-00.toc completed successfully.
